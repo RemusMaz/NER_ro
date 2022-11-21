@@ -1,3 +1,5 @@
+import torch
+
 
 class MyCollator(object):
     def __init__(self, tokenizer, max_seq_len):
